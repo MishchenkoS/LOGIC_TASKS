@@ -9,5 +9,3 @@ function getAvarage (array) {
   }
   return null;
 }
-
-console.log(getAvarage([5,3,6,2,3]))

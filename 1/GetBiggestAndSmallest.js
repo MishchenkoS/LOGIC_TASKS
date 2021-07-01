@@ -19,5 +19,3 @@ function getBiggestAndSmallest (array) {
   }
   return null;
 }
-
-console.log(getBiggestAndSmallest([5,3,6,2,10]))

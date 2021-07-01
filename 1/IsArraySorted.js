@@ -8,8 +8,7 @@ function isArraySorted (array) {
     }
 
     return true;
-  }
+  } 
+
   return null;
 }
-
-console.log(isArraySorted([1, 3, 5, 5, 7, 9]))
