@@ -1,5 +1,5 @@
 function isArraySorted (array) {
-  if(Array.isArray(array)) {
+  if(array instanceof Array) {
     
     for(let i = 1; i < array.length; i++) {
       if(array[i-1] > array[i]) {

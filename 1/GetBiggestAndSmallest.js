@@ -1,5 +1,5 @@
 function getBiggestAndSmallest (array) {
-  if(Array.isArray(array)) {
+  if(array instanceof Array) {
     let smallest = array[0];
     let biggest = array[0];
     
