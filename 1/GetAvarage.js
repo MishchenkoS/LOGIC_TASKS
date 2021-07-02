@@ -1,13 +1,14 @@
 function getAvarage (array) {
-  if(array instanceof Array) {
-    let sum = 0;
-
-    for(let item of array) {
-      sum += item;
-    }
-
-    return sum / array.length;
+  if(!(array instanceof Array)) {
+    return null;
   }
-  return null;
+  
+  let sum = 0;
+
+  for(let item of array) {
+    sum += item;
+  }
+
+  return sum / array.length;
 }
 
