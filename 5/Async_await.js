@@ -10,6 +10,7 @@ async function f() {
     console.log(data);
   } catch (e) {
     console.log(e);
+  } finally {
+    console.log('Promise complete');
   }
-  console.log('Promise complete');
 }
